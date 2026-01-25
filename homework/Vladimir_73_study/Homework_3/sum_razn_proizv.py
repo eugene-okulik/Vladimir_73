@@ -13,6 +13,6 @@ print(f'                {UNDERLINE}Вывод  СУММЫ, РАЗНОСТИ И �
 
 a = float(input(f'    {MAGENTA}Введите число a:{RESET}'))
 b = float(input(f'    {MAGENTA}Введите число b:{RESET}'))
-print(f' {GREEN}                       Сумма: {a+b}{RESET}')
-print(f' {YELLOW}                       РАЗНОСТЬ: {a-b}{RESET}')
-print(f'  {CYAN}                      ПРОИЗВЕДЕНИЕ: {a*b}{RESET}')
+print(f'                         {GREEN}Сумма:{a + b}{RESET}')
+print(f'                          {YELLOW}РАЗНОСТЬ:{a - b}{RESET}')
+print(f'                           {CYAN}ПРОИЗВЕДЕНИЕ:{a * b}{RESET}')
