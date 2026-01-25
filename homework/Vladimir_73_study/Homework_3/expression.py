@@ -9,12 +9,9 @@ CYAN = '\033[96m'     # Голубой
 WHITE = '\033[97m'    # Белый
 ITALIC = '\033[3m'
 
-print(f'                   {MAGENTA}{
-      UNDERLINE} Выводим результат выражения x-y/5+xy{RESET}')
+print(f'                   {MAGENTA}{UNDERLINE} Выводим результат выражения x-y/5+xy{RESET}')
 
-x = int(input(f'\n                           {
-        GREEN}ВВЕДИТЕ целое число x={RESET}'))
-y = int(input(f'                           {
-        CYAN}ВВЕДИТЕ целое число y={RESET}'))
+x = int(input(f'\n                         {GREEN}ВВЕДИТЕ целое число x={RESET}'))
+y = int(input(f'                           {CYAN}ВВЕДИТЕ целое число y={RESET}'))
 
 print(f'\n  {YELLOW}{ITALIC}ВЫРАЖЕНИЕ x-y/5+xy ={x-y/5+x*y}{RESET}')
