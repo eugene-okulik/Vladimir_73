@@ -1,0 +1,6 @@
+﻿[tool.flake8]
+max-line-length = 120
+exclude = [
+    "homework/eugene_okulik/",
+    "test_UI_eokulik_pw/"
+]
