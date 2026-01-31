@@ -1,6 +1,6 @@
 text = "результат операции: 514"
 pos = text.index(":")
-right_part = text[pos+1:]
+right_part = text[pos + 1:]
 # 3. Убираем пробелы
 clean = right_part.strip()
 # 4. Превращаем в число
