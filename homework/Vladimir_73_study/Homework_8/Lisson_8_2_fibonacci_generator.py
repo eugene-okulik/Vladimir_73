@@ -4,6 +4,7 @@ def fibonacci_generator():
         yield a
         a, b = b, a + b
 
+
 # Как делали для миллионного числа в progression
 count = 0
 for number in fibonacci_generator():
@@ -14,6 +15,5 @@ for number in fibonacci_generator():
     elif count == 1000:
         print(f"1000-е число Фибоначчи: {number}")
         break  # Нашли все - выходим
-    
+
     count += 1
-    
