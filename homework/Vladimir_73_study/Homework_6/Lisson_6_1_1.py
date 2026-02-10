@@ -13,7 +13,7 @@ def add_ing(word):
 # 2. Исходный текст
 text = ("Etiam tincidunt neque erat, quis molestie enim imperdiet vel. "
         "Integer urna nisl, facilisis vitae semper at, dignissim vitae libero")
-print(f"Дан текст:{text}")
+print(f"Дан текст: {text}")
 # 3. Разбиваем на слова
 words = text.split()
 print(f"Исходные слова: {words}")
