@@ -64,4 +64,3 @@ school_books = [math_9, history_6, geography_7, physics_8, literature_5]
 # Печатаем
 for book in school_books:
     print(book)
-    
