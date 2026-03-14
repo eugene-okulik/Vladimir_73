@@ -50,4 +50,4 @@ for book in books:
     # for book in books:
     print(info)
 
-    print(f"{YELLOW}={RESET}"*50)
+    print(f"{YELLOW}={RESET}" * 50)
